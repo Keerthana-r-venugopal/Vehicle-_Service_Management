@@ -32,13 +32,12 @@ Import the SQL file located in the db folder to set up the necessary tables.<br>
 Configure Database Connection :
 Open the config.php file located in the root directory.<br>
 <br>
-Update the database credentials :
-<?php
+Update the database credentials :<br>
+<br>
+<?php<br>
 $servername = "localhost";<br>
 $username = "your_db_username";<br>
 $password = "your_db_password";<br>
 $dbname = "vehicle_service_management";<br>
-?>
+?><br>
 <br>
-# Run the Application
-Ensure your server (e.g., XAMPP, WAMP) is running.<br>
