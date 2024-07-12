@@ -3,34 +3,34 @@ Vehicle Service Management is a web-based application developed using PHP and HT
 
 # Features
 Admin Page<br>
-Dashboard: View overall statistics and summaries of vehicle services.<br>
-Manage Users: Create, read, update, and delete user accounts.<br>
-Manage Services: Oversee service requests, update statuses, and maintain service records.<br>
-Service History: Access and manage historical data of all vehicle services.<br>
-Notifications: Send and manage notifications to users regarding their service status.<br>
+<br>
+» Dashboard: View overall statistics and summaries of vehicle services.<br>
+» Manage Users: Create, read, update, and delete user accounts.<br>
+» Manage Services: Oversee service requests, update statuses, and maintain service records.<br>
+» Service History: Access and manage historical data of all vehicle services.<br>
+» Notifications: Send and manage notifications to users regarding their service status.<br>
+<br>
 User Page<br>
-Service Request: Users can create new service requests for their vehicles.<br>
-View Service Status: Check the status of ongoing service requests.<br>
-Service History: View past service records and details.<br>
-Profile Management: Update personal details and manage user profiles.<br>
+<br>
+» Service Request: Users can create new service requests for their vehicles.<br>
+» View Service Status: Check the status of ongoing service requests.<br>
+» Service History: View past service records and details.<br>
+» Profile Management: Update personal details and manage user profiles.<br>
 # Technologies Used
-PHP: Server-side scripting to handle backend logic and database interactions.<br>
-HTML: Structuring and presenting the content on the web.<br>
-MySQL: Database management for storing and retrieving data.<br>
+» PHP: Server-side scripting to handle backend logic and database interactions.<br>
+» HTML: Structuring and presenting the content on the web.<br>
+» MySQL: Database management for storing and retrieving data.<br>
 # Installation
 Clone the Repository<br>
-
-git clone https://github.com/yourusername/Vehicle_Service_Management.git<br>
+<br>
+git clone (link of your repository) <br>
 cd Vehicle_Service_Management<br>
 # Set Up the Database
-
 Create a database named vehicle_service_management.<br>
 Import the SQL file located in the db folder to set up the necessary tables.<br>
 # Configure Database Connection
-
 Open the config.php file located in the root directory.<br>
 # Update the database credentials:
-
 <?php
 $servername = "localhost";<br>
 $username = "your_db_username";<br>
@@ -39,5 +39,4 @@ $dbname = "vehicle_service_management";<br>
 ?>
 <br>
 # Run the Application
-
 Ensure your server (e.g., XAMPP, WAMP) is running.<br>
