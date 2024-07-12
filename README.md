@@ -34,10 +34,10 @@ Open the config.php file located in the root directory.<br>
 <br>
 Update the database credentials :<br>
 <br>
-<?php<br>
-$servername = "localhost";<br>
-$username = "your_db_username";<br>
-$password = "your_db_password";<br>
-$dbname = "vehicle_service_management";<br>
-?><br>
+»<?php<br>
+ $servername = "localhost";<br>
+ $username = "your_db_username";<br>
+ $password = "your_db_password";<br>
+ $dbname = "vehicle_service_management";<br>
+ ?><br>
 <br>
